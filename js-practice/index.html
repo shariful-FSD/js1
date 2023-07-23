@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js-practice</title>
+  <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  <!--icon links-->
+<script src="https://kit.fontawesome.com/e18c50a961.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="container js-1">
+      <h1>JavaScript Statements </h1>
+      <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.
+       </p>
+      <p id="statement"></p>  
+    </div>
+    <!--text change-->
+    <div class="container js-2">
+      <h1>Click the text to change the word</h1>
+      <button  type="button" class="btn btn-danger my-2" onclick="textChange()">Click Me</button>
+      <h3 id="tch"> Hello World</h3>
+    </div>
+    <!--show date-->
+    <div class="container js-3">
+      <h2>See the Date</h2>
+      <button type="button" class="btn btn-dark my-2" onclick="displayDate()"> show date</button>
+
+    <h3 id="sd"></h3>
+    </div>
+    <!--bulb on off-->
+    <div class="container">
+      <h2>click the button to on/off light</h2>
+
+      <button type="button" class="btn btn-success" onclick="bulbOn()">Bulb On</button>
+
+      <img id="bulb" src="images/off.gif" alt="">
+
+      <button type="button" class="btn btn-danger" onclick="bulbOff()">Bulb Off</button>
+      
+    </div>
+
+    
+
+
+
+ 
+  <!-- Js Links-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
